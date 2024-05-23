@@ -167,6 +167,7 @@ border: none;
     margin-top: 30px;
     margin-left: 75px;
     
+    
 }
 .top-bar{
     display: flex;
@@ -175,6 +176,7 @@ border: none;
     }
 .top-bar .img1 img{
         border-radius: 15px;
+    
     }
     .top-bar .img2 img{
          border-radius: 15px;
@@ -266,20 +268,155 @@ border: none;
     display: flex;
      margin-top: 30px;
     margin-left: 75px;
-    gap:20px
+    gap:25px
 }
 .end-image img{
     border-radius: 15px;
     gap: 20px;
 }
-    
-        
+   .last-image img{
+        border-radius: 15px;
+       }
 
 
 
-
-
+.end-img h1{
+    font-size: 16px;
+    margin-top: 8px;
+    letter-spacing: 0px;
+    width: 100%;
+    height: 3;
+}
+.end-img h2{
+    font-size: 14px;
+    font-style:italic;
+    margin-top: 3px;
+    letter-spacing: 0px;
+    width: 100%;
+    height: 3;
+    color: rgb(168, 165, 165);
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+.end-img h3{
+    font-size: 16px;
+    margin-top: 3px;
+    letter-spacing: 0px;
+    width: 100%;
+    height: 3;
+}
    
+.footer-top h2{
+    margin-top: 40px;
+    margin: 70px;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.22px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+.footer-flex{
+    display: flex;
+    gap: 23px;
+    height: 40px;
+    margin-top: 18px;
+    padding-left: 70px;
+    border-bottom-style:inset;
+    color: rgba(106, 106, 106);
+    font-weight: bold;
+    align-items: flex-start;
+    font-size: 12px;
+
+}
+    .footer-flex h3{
+    color: rgba(106, 106, 106);
+    cursor: pointer;
+    
+}
+.footer-flex h3 :hover{
+    cursor: alias;
+    color: black;
+}
+.footer-grid
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding-left: 40px;
+    padding-right: 230px;
+    border-bottom-style: inset;
+    height: 200px;
+    
+    
+}
+.footer-grid ul{
+    height: 60px;
+    
+}
+.footer-grid ul p{
+    color: rgb(106, 106, 106)
+}
+.footer-grid ul span{
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+.footer-down{
+    display: flex;
+    justify-content: space-around;
+    border-bottom-style: inset;
+    height: 222px;
+    margin-left: -142px;
+    width: 100%;
+
+}.footer-down p{
+    margin: 11px;
+    font-size: 14px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+
+}
+.footer-down span{
+    padding-left: 10px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    
+}
+.footer-down .simba{
+    padding-right: 40px;
+    transform: translateX(-60px);
+}
+.footer-down .bodo{
+    transform: translateX(-135px);
+}
+.tham{
+    display: flex;
+    padding-left: 70px;
+    margin-top: 23px;
+    justify-content: space-between;
+    
+    
+
+}
+
+.tham ul{
+    display: flex;
+    flex-direction: row;
+        justify-content: flex-start;
+ gap: 17px;
 
 
+}
+.tham li{
+  height: 53px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
 
+.done{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-right: 90px;
+    margin-top: 10px;
+}
+.done ul{
+    padding-left: -9px;
+}
