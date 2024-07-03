@@ -82,7 +82,7 @@ border: none;
 .stays{
     justify-content: center;
     margin-top: -40px;
-    padding-left: 760px;
+    display: flex;
     align-items: center;
 
 }
@@ -530,6 +530,15 @@ line-height: 19px;
             column-gap: 25px;
 
         }
+        .search-btn{
+            width: 70%;
+        }
+        .stays{
+            padding: 0;
+            justify-content: center;
+            
+        }
+        
 }
 @media (max-width:1227px) {
     *{
@@ -718,7 +727,8 @@ font-size: 12px;
 .scroll{
     position: absolute;
     top: 90px;
-    width: 84%;
+    width: 90%;
+    margin-left: 30px;
 }
 .tham ul{
     justify-content: left;
@@ -777,9 +787,6 @@ font-size: 12px;
 .bodo{
     width: 100%;
 }
-   .scroll{
-    margin: 0;
-   } 
 
 .tham ul{
     width: 80%;
@@ -793,6 +800,12 @@ font-size: 12px;
     .search-btn .search-logo svg{
         padding: 10px;
         justify-content: center;
+    }
+    .scroll{
+        width: 87%;
+    }
+    .search-btn{
+        width: 90%;
     }
 }
     
